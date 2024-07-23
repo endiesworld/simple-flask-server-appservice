@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>About</h1>
+    <p> A simple website to simulate all things flask</p>
+    
+    {% if location %}
+    <p>If I'm ever in {{ location }} I'd love to say hi!</p>
+    {% else %}
+    <p> Drop me line, let me know where you are!</p>
+    {% endif %}
+{% endblock %}
