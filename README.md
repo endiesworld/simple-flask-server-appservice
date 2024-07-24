@@ -36,6 +36,9 @@ If you're not using one of those options for opening the project, then you'll ne
     ```console
     python3 -m flask run --port 50505 --debug
     ```
+    ```console
+    python3 -m quart run --port 50505 --debug
+    ```
 
 2. Click 'http://127.0.0.1:50505' in the terminal, which should open the website in a new tab.
 3. Try the index page, try '/hello?name=yourname', and try other paths.
