@@ -1,7 +1,7 @@
-from quart import Quart, render_template, request
+from flask import Flask, render_template, request
 
 # Create a quart app
-app = Quart(
+app = Flask(
   __name__,
   template_folder='templates',
   static_folder='static'
